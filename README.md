@@ -1,5 +1,5 @@
 ### M_PoliceMenuFivePD
-Ceci est Un mode de jeu multijoueur LSPDFR pour fivem améliorer de (https://github.com/constantgillet/fivem-police-department)
+Ceci est un mode de jeu multijoueur LSPDFR pour fivem améliorer de (https://github.com/constantgillet/fivem-police-department)
 
 # Features
 - Armurerie Police
