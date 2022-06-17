@@ -46,8 +46,8 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 
 		for k, equipmentMarker in pairs(Config.EquipmentMarkers) do
-			if (GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), equipmentMarker.x, equipmentMarker.y, equipmentMarker.z, true) < 2.0) then
-				DrawMarker(1, equipmentMarker.x, equipmentMarker.y, equipmentMarker.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerE.x, Config.PointMarkerE.y, Config.PointMarkerE.z, Config.PointMarkerE.r, Config.PointMarkerE.g, Config.PointMarkerE.b, 100, false, true, 2, false, false, false, false)	
+			DrawMarker(1, equipmentMarker.x, equipmentMarker.y, equipmentMarker.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerE.x, Config.PointMarkerE.y, Config.PointMarkerE.z, Config.PointMarkerE.r, Config.PointMarkerE.g, Config.PointMarkerE.b, 100, false, true, 2, false, false, false, false)
+			if (GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), equipmentMarker.x, equipmentMarker.y, equipmentMarker.z, true) < 2.0) then	
             else
                 _menuPool:CloseAllMenus()
             end
