@@ -12,12 +12,11 @@ Ceci est Un mode de jeu multijoueur LSPDFR pour fivem améliorer de (https://git
 Pas besoin d'installer la dépendence NativeUI elle est directement introduit dans le fichier. (https://github.com/FrazzIe/NativeUILua)
 
 # Starting Server
+```
 ensure policenationale_a
-
 ensure policenationale_e
-
 ensure policenationale_g
-
+```
 # License
 MIT License
 
