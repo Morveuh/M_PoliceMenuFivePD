@@ -57,8 +57,8 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 
 		for k,v in pairs(Config.PoliceCarGarages) do
+			DrawMarker(1, v.GaragePoint.x, v.GaragePoint.y, v.GaragePoint.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerG.x, Config.PointMarkerG.y, Config.PointMarkerG.z, Config.PointMarkerG.r, Config.PointMarkerG.g, Config.PointMarkerG.b, 100, false, true, 2, false, false, false, false)
 			if (GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), v.GaragePoint.x, v.GaragePoint.y, v.GaragePoint.z, true) < 5) then
-				DrawMarker(1, v.GaragePoint.x, v.GaragePoint.y, v.GaragePoint.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerG.x, Config.PointMarkerG.y, Config.PointMarkerG.z, Config.PointMarkerG.r, Config.PointMarkerG.g, Config.PointMarkerG.b, 100, false, true, 2, false, false, false, false)
             else
                 _menuPool:CloseAllMenus()	
 			end
