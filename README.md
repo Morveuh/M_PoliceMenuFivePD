@@ -9,7 +9,7 @@ Ceci est Un mode de jeu multijoueur LSPDFR pour fivem améliorer de (https://git
 - Garage Police
 
 # Instructions
-Pas besoin d'installer la dépendence NativeUI elle est directement introduit dans le fichier. (https://github.com/FrazzIe/NativeUILua)
+Pas besoin d'installer la dépendence NativeUILua elle est directement introduit dans le fichier. (https://github.com/FrazzIe/NativeUILua)
 
 # Starting Server
 ```
