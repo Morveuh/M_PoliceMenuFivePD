@@ -1,7 +1,7 @@
 ### M_PoliceMenuFivePD
 This is an LSPDFR mode for FiveM. [Improve] (https://github.com/constantgillet/fivem-police-department)
 
-- Cconfigurable
+- Configurable
 
 # Features
 - Armurerie Police
@@ -10,6 +10,9 @@ This is an LSPDFR mode for FiveM. [Improve] (https://github.com/constantgillet/f
 
 # Video
 https://streamable.com/kgig9m
+
+# As a reminder, I am not a developer.
+Mvh#3326
 
 # Instructions
 No need to install the NativeUILua dependency, it is directly introduced in the file. (https://github.com/FrazzIe/NativeUILua)
