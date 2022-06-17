@@ -41,8 +41,8 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 
 		for k,armory in pairs(Config.PoliceArmories) do
+			DrawMarker(1, armory.x, armory.y, armory.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerA.x, Config.PointMarkerA.y, Config.PointMarkerA.z, Config.PointMarkerA.r, Config.PointMarkerA.g, Config.PointMarkerA.b, 100, false, true, 2, false, false, false, false)
 			if (GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), armory.x, armory.y, armory.z, -1) < 2.0) then
-				DrawMarker(1, armory.x, armory.y, armory.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.PointMarkerA.x, Config.PointMarkerA.y, Config.PointMarkerA.z, Config.PointMarkerA.r, Config.PointMarkerA.g, Config.PointMarkerA.b, 100, false, true, 2, false, false, false, false)
             else
                 _menuPool:CloseAllMenus()
 			end
