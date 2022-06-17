@@ -5,9 +5,7 @@ Ceci est un mode LSPDFR pour fivem. [Improve] (https://github.com/constantgillet
 
 # Features
 - Armurerie Police
-
 - Équipement Police
-
 - Garage Police
 
 # Instructions
