@@ -1,6 +1,8 @@
 ### M_PoliceMenuFivePD
 Ceci est un mode LSPDFR pour fivem. [Improve] (https://github.com/constantgillet/fivem-police-department)
 
+- Configurable
+
 # Features
 - Armurerie Police
 
