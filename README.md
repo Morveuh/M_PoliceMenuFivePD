@@ -8,6 +8,9 @@ Ceci est un mode LSPDFR pour fivem. [Improve] (https://github.com/constantgillet
 - Équipement Police
 - Garage Police
 
+# Video
+https://streamable.com/kgig9m
+
 # Instructions
 Pas besoin d'installer la dépendence NativeUILua elle est directement introduit dans le fichier. (https://github.com/FrazzIe/NativeUILua)
 
